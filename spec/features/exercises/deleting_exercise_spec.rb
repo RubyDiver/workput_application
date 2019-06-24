@@ -10,15 +10,17 @@ RSpec.feature "Deleting Exercise" do
 
     login_as(@max)
   end
-  scenario "with valid succeeds"
-  visit "/"
+  scenario "with valid succeeds" do
 
-  click_lick "My Lounge"
+    visit "/"
 
-  path = "/users/#{@max.id}/exercises/#{@max_exercise.id}"
-  link = "//a[contains(@href,\'#{path}\') and .//text()='Destroy']"
+    click_link "My Lounge"
 
-  find(:xpath, link).click
+    path = "/users/#{@max.id}/exercises/#{@max_exercise.id}"
+    link = "//a[contains(@href,\'#{path}\') and .//text()='Destroy']"
 
-  expect(page).to have_content("Exercise has been deleted")
+    find(:xpath, link).click
+
+    expect(page).to have_content("Exercise has been deleted")
+  end
 end
