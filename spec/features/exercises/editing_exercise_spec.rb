@@ -20,7 +20,7 @@ RSpec.feature "Editing Exercise" do
     link = "a[href=\'#{path}\']"
     find(link).click
 
-    fill_in "Duration", wtih: 45
+    fill_in "Duration", with: 45
     click_button "Update Exercise"
 
     expect(page).to have_content("Exercise has been updated")
