@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a179c85e-36e1-4842-8c36-951363e8dcc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models/exercise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/exercise.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/exercises/creating_exercise_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/exercises/creating_exercise_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/exercises/listing_exercises_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/exercises/listing_exercises_spec.rb" afterDir="false" />
-    </list>
+    <list default="true" id="a179c85e-36e1-4842-8c36-951363e8dcc6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/exercises/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/exercises/creating_exercise_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -78,7 +83,6 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/exercises/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/exercises/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/exercises/show.html.erb" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/exercises_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/exercises/new.html.erb" />
@@ -93,6 +97,7 @@
         <option value="$PROJECT_DIR$/app/controllers/exercises_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/exercise.rb" />
         <option value="$PROJECT_DIR$/spec/features/exercises/creating_exercise_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/exercises/show.html.erb" />
       </list>
     </option>
   </component>
@@ -498,17 +503,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32327000" />
+    <option name="totallyTimeSpent" value="32556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="13" width="1920" height="1139" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20340788" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20340788" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.26552054" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.26552054" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3289941" />
@@ -804,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/exercises/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/exercises/listing_exercises_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -825,6 +823,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/exercises/creating_exercise_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/exercises_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -832,10 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/exercises/creating_exercise_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/exercises/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
