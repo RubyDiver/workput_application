@@ -12,6 +12,10 @@ RSpec.feature "Listing exercises" do
     @e2 = @ted.exercises.create(duration_in_min: 30,
                                  workout: 'tabata',
                                  workout_date: 2.days.ago)
+
+    @e3 = @ted.exercises.create(duration_in_min: 50,
+                                workout: 'push-ups',
+                                workout_date: 8.days.ago)
   end
 
   scenario "show user's workout for last 7 days" do
@@ -27,9 +31,9 @@ RSpec.feature "Listing exercises" do
     expect(page).to have_content(@e2.workout)
     expect(page).to have_content(@e2.workout_date)
 
-    # expect(page).to have_content(@e3.duration_in_min)
-    # expect(page).to have_content(@e3.workout)
-    # expect(page).to have_content(@e3.workout_date)
+    expect(page).not_to have_content(@e3.duration_in_min)
+    expect(page).not_to have_content(@e3.workout)
+    expect(page).not_to have_content(@e3.workout_date)
 
   end
 
