@@ -5,7 +5,7 @@ RSpec.feature "Signing Up" do
     visit "/"
 
     click_link "Sign up"
-    fill_in "Email", with: "john@example.com"
+    fill_in "Email", with: "joh@example.com"
     fill_in "Password", with: "password"
     fill_in "Password confirmation", with: "password"
 
