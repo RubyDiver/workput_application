@@ -1,12 +1,17 @@
-<div class="container">
+<div class="<%= content_for?(:whole_page) ? 'container-fluid' : 'container' %>">
   <div class="row">
     <div class="col-md-12">
       <% flash.each do |key, message| %>
-        <div class="text-center alert alert-<%= key == 'notice' ? 'success' : 'danger' %>">
+        <div class="text-center alert alert-dismissible alert-<%= key == 'notice' ? 'success' : 'danger' %> ">
+          <button class="close" type="button" data-dismiss="alert">
+            <span>&times;</span>
+          </button>
           <%= message %>
         </div>
       <% end %>
+
+      <%= yield %>
+      <%= yield :whole_page %>
     </div>
-    <%= yield %>
   </div>
 </div>

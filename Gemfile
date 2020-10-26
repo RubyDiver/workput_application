@@ -33,7 +33,7 @@ gem 'd3_rails', '~> 4.1', '>= 4.1.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'slim', '~> 4.0', '>= 4.0.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
